@@ -1,0 +1,58 @@
+🚀 MANUAL GIT COMMANDS TO RUN IN TERMINAL
+==========================================
+
+If the automated scripts don't work, run these commands one by one:
+
+1. Check git status:
+   git status
+
+2. Configure git (replace with your details):
+   git config --global user.name "Dharshan-vs"
+   git config --global user.email "your-email@example.com"
+
+3. Add all files:
+   git add .
+
+4. Commit changes:
+   git commit -m "Complete Google API Integration - All 11 APIs Connected!"
+
+5. Set remote origin:
+   git remote add origin https://github.com/Dharshan-vs/zerostage11.git
+
+6. Create main branch:
+   git branch -M main
+
+7. Push to GitHub (try these in order):
+   
+   Option A - Push to main:
+   git push -u origin main
+   
+   Option B - If main fails, try master:
+   git branch -M master
+   git push -u origin master
+   
+   Option C - If still fails, force push:
+   git push -f origin main
+   
+   Option D - Force push to master:
+   git push -f origin master
+
+8. If you get authentication errors:
+   - Make sure you're logged into GitHub
+   - Use GitHub CLI: gh auth login
+   - Or use personal access token
+
+9. If repository doesn't exist:
+   - Go to https://github.com/Dharshan-vs/zerostage11
+   - Create the repository first
+   - Then run the push commands
+
+TROUBLESHOOTING:
+- If "origin already exists": git remote remove origin
+- If "branch main doesn't exist": git branch -M main
+- If "authentication failed": Check GitHub credentials
+- If "repository not found": Create repo on GitHub first
+
+SUCCESS MESSAGE:
+✅ Your ZeroStage platform is now on GitHub!
+🌐 https://github.com/Dharshan-vs/zerostage11
