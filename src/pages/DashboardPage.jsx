@@ -393,17 +393,6 @@ const DashboardPage = () => {
               </div>
             </Card>
 
-            {/* Google API Status Test */}
-            <Card className="p-6">
-              <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center space-x-2">
-                <Settings className="w-5 h-5" />
-                <span>Google API Status</span>
-              </h2>
-              <p className="text-gray-600 mb-4">
-                Check if all Google APIs are properly connected and configured.
-              </p>
-              <GoogleApiTest />
-            </Card>
           </motion.div>
         </div>
       </div>
